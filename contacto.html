@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/237c16bb39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="grillaContacto">
+        <header class="contacto___nav--grid">
+            <div class="contenedor__navbar--principal">
+                <div class="grid__navLogo"><img src="./imgs/LogoNDD-01.png" alt="LogoNDD" class="header__logo"></div>
+                <nav>
+                    <ul class="header__navbar--principal">
+                        <li><a href="index.html">Inicio</a></li> 
+                        <li><a href="acerca.html">Acerca</a></li>
+                        <li><a href="testimonios.html">Testimonios</a></li>
+                        <li><a href="paquetes.html">Paquetes</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                     </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contacto__main">
+            <div>
+                <h2>Comienza hoy y transforma tu vida</h2>
+            </div>
+        </main>
+
+        <section class="contacto__informacion">
+            <div> <h1>L.N. Diego Mata</h1>
+                <h2>nutriciondeportiva@hotmail.com</h2>
+                <h2>(+52) 33 12 34 56 78</h2>
+                <ul>
+                    <li>LUN: 12.00 - 21.00</li>
+                    <li>MAR: 12.00 - 21.00</li>
+                    <li>MIÉ: 12.00 - 21.00</li>
+                    <li>JUE: 12.00 - 21.00</li>
+                    <li>VIE: 12.00 - 21.00</li>
+                    <li>SÁB: 12.00 - 21.00</li>
+                    <li>DOM: cerrado</li>
+                </ul></div>
+        </section>
+
+        <aside class="form__contacto">
+            <form action="" class="form__contacto">
+                <fieldset>
+                    <legend>Ingresa tus datos</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" nome="name" placeholder="Ingresa tu nombre" required>
+                    <br>
+        
+                    <label for="correo">Correo electrónico</label>
+                    <input type="text" name="correo" placeholder="correo@dominio.com"> <br>
+        
+                    <label for="tel">Teléfono</label>
+                    <input type="text" name="tel" placeholder="(33)-12345678"><br>
+        
+                    <label for="paquete">Paquete de tu interés</label>
+                    <select name="paquete" id="">
+                        <option value="">Selecciona el paquete</option>
+                        <option value="pqt1">Paquete 1</option>
+                        <option value="pqt2">Paquete 2</option>
+                        <option value="pqt3">Paquete 3</option>
+                        <option value="pqt4">Paquete 4</option>
+                    </select>
+                    <br> <br>
+        
+                    <label for="pais">Horario para llamadas</label>
+                    <div class="formulario__div">Matutino</div>
+                    <input type="radio" name="horario" value="matutino" checked="checked">
+                    <div class="formulario__div">Mediodía</div>
+                    <input type="radio" name="horario" value="mediodia">
+                    <div class="formulario__div">Vespertino</div>
+                    <input type="radio" name="horario" value="vespertino">
+                    <br>
+        
+                    <label for="dudas">Dudas o sugerencias</label><br>
+                    <textarea name="dudas" id="" cols="30" rows="5" maxlength="500" placeholder="Deja aquí tus dudas y sugerencias"></textarea>
+        
+                    <div class="formulario__div">Otros servicios</div><br>
+                    <div class="formulario__div">Dieta</div>
+                    <input type="checkbox" name="cbox1">
+                    <div class="formulario__div">Rutina</div>
+                    <input type="checkbox" name="cbox2">
+                    <div class="formulario__div">Consulta</div>
+                    <input type="checkbox" name="cbox3">
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </fieldset>
+            </form>
+        </aside>
+
+
+        <footer class="footer__grid">
+
+            <div class="footer__flex">
+                <div class="footer__menu">
+                 <ul>
+                     <li><a href="index.html">Inicio</a></li> 
+                     <li><a href="acerca.html">Acerca</a></li>
+                     <li><a href="testimonios.html" >Testimonios</a></li>
+                     <li><a href="paquetes.html" >Paquetes</a></li>
+                     <li><a href="contacto.html" >Contacto</a></li>
+                 </ul>
+                </div>
+             
+                <div class="footer__menu">
+                    <div><a href="index.html"><img src="imgs/LogoNDD-01.png" class="footer__logo" alt="LogoNDD"></a></div>
+                </div>
+                
+                <div class="footer__menu--contacto">
+                    <div>
+                        <a href="http://www.facebook.com/nutriciondeportivadietetica/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://www.instagram.com/nutriciondeportivaydietetica/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+    
+                    <div>
+                        <h3>L.N. Diego Mata</h3>
+                        <p>(33)16729188</p>
+                        <p>Av. de la Paz #2681</p>
+                        <p>Guadalajara,Jal.</p>  
+                    </div>              
+                </div>
+            
+            </div>
+    </div>
+</body>
+</html>
