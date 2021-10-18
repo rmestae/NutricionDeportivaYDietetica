@@ -37,6 +37,12 @@ body{
 
 .header__navbar--principal li{
     list-style: none;
+    transition: .5s;
+}
+
+.header__navbar--principal li:hover{
+    transform:translateY(5px);
+    transform: scale(1.2,1.2);
 }
 
 .header__navbar--principal a{
@@ -52,7 +58,7 @@ body{
 }
 
 .header__navbar--principal a:hover{
-    color: #cadfff;
+    color:#10ee23;
 }
 
 /* -------BODY */
@@ -184,6 +190,7 @@ p{
 
 .section__contenido--imagen{
     margin: 3%;
+    overflow: hidden;
 } 
 
 .section__contenido--imagen img{
@@ -424,8 +431,9 @@ textarea{
 
 footer{
     padding:1rem;
-    background-color: #13162b;
+    /* background-color: #13162b; */
     height: 15vh;
+    background:#13162b;
 }
 
 hr{
@@ -482,6 +490,12 @@ hr{
 .footer__menu li{
     position: relative;
     padding: 0 1em 0 1em;
+    transition: .5s;
+}
+
+.footer__menu li:hover{
+    transform: scale(1.2,1.2);
+    transform:translateY(-5px);
 }
 
 .footer__menu a{
@@ -492,11 +506,19 @@ hr{
     color:rgb(67, 74, 121);
 }
 
-.fab{
-    padding: .3em .3em .3em 0;
-    color: rgb(67, 74, 121);
-}
-
 .footer__menu a:hover{
     color: #10ee23;
 }
+
+.fab{
+    padding: .3em .3em .3em 0;
+    color: rgb(67, 74, 121);
+    transition: .3s;
+}
+
+.fab:hover{
+    color:#cadfff;
+    transform: scale(1.2,1.2);
+}
+
+
