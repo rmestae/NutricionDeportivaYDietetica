@@ -1,0 +1,27 @@
+footer {
+    background-color: $dark;
+  
+    font: {
+      family: $font-secondary;
+      size: 0.9rem;
+    }
+
+   
+}
+
+.link{
+    text-decoration: underline .1em rgba(255, 255, 255, 0);
+    cursor: pointer;
+    transition: text-decoration-color 1s;
+    
+    &:hover {
+        text-decoration: underline .1em #fff;
+    }
+}
+
+.footer__head {
+    text-transform: uppercase;
+    color: $primary-green;
+    font-weight: 600;
+  }
+

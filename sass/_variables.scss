@@ -1,0 +1,23 @@
+// Definición de variables
+$primary-green: #8be894;
+$secondary-green: #37c40d;
+$primary-blue: #222853;
+$secondary-blue: #86c7fc;
+$text-blue: #d7e9f8;
+$drop-shadow: drop-shadow(30px 10px 4px #232923);
+$shadow: #232923;
+$font-primary: "Oswald", sans-serif;
+$font-secondary: "Archivo", sans-serif;
+$full-width: 100vh;
+
+// Override de variables Bootstrap
+$primary: $primary-green;
+$dark: #151833;
+$white: #fff;
+
+$font-family-base: $font-primary;
+$body-bg: $primary-blue;
+
+$btn-font-family: $font-secondary;
+$btn-link-color: $primary-green;
+$btn-link-hover-color: $secondary-blue;

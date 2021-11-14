@@ -1,0 +1,97 @@
+.gmap{
+    width: 100%;
+    height: 30rem;
+    padding: 3rem 0 0;
+}
+
+.contacto__form{
+    font-family: $font-secondary;
+    color: $text-blue;
+
+    h2{
+        font-family: $font-primary;
+        color: $primary-green;
+        text: {
+            transform: uppercase;
+        }
+    }
+
+    p{
+        font-style: $font-secondary;
+    }
+}
+
+
+fieldset{
+    border: none;
+}
+
+legend{
+    font-family: 'Oswald', sans-serif;
+    font-size:3em;
+    color: rgb(134, 199, 252);
+    margin: 2em 0 .25em 0;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 2em 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid rgb(154, 250, 191);
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 1.1em;
+}
+  
+input[type=submit], input[type=reset]{
+    width: 49%;
+    background-color:#8BE894;
+    color: #13162b;
+    padding: 14px 20px 20px 0;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald';
+}
+
+label{
+      display:none;
+}
+
+select, ::placeholder{
+    color:#c9e9f5
+}
+
+  
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+textarea{
+    width: 90%;
+    height: 15em;
+    border: none !important; 
+    padding: 2em;
+    font-family: 'Archivo';
+    font-size: 1em;
+    border-bottom: 1px solid rgb(154, 250, 191) !important;
+}
+
+.btn-primary{
+    padding: .5em;
+    width: 5em;
+}
+
+.btn-send{
+    color: white;
+    text-transform: uppercase;
+    font: {
+        family: $font-primary;
+        size: 1.3rem;
+    }
+}

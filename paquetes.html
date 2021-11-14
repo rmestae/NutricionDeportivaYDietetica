@@ -1,90 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paquetes - NDD</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/237c16bb39.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      type="description"
+      content="Paquetes de nutrición personalizados para lograr tus objetivos."
+    />
+    <meta
+      type="keywords"
+      content="paquetes de nutricion, planes alimenticios, paquetes dieteticos, dietas"
+    />
+    <link rel="icon" type="image/png" href="./imgs/favicon.png" />
+    <title>Paquetes nutricionales - Nutrición Deportiva y Dietética</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/237c16bb39.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-    <!-- Banner -->
-    <header class="header-banner">
-        <a href="index.html"><img src="imgs/LogoNDD-01.png" class="header__logo" alt="LogoNDD"></a>
-        <nav class="header__navbar">
-            <ul class="header__navbar--principal" id="menu">
-                <li><a href="index.html">Inicio</a></li> 
-                <li><a href="acerca.html">Acerca</a></li>
-                <li><a href="testimonios.html">Testimonios</a></li>
-                <li><a href="paquetes.html">Paquetes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"
+        ><img src="./imgs/LogoNDD-01.png" alt="NDD" class="px-5 py-1"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end px-5 mx-2"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acerca.html">Acerca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonios.html">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paquetes.html">Paquetes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="head">
+      <div class="container">
+        <div class="masthead-subheading">Nos adaptamos a tus necesidades</div>
+        <div class="masthead-heading text-uppercase">
+          ¿Cómo lo puedo lograr?
+        </div>
+      </div>
     </header>
 
-
-    <main class="main__pagina">
-        <div class="body__titulo--principal"><h1>Elige un plan a tu medida</h1></div>
-        <div class="body__titulo--secundario"><h2>Nos adecuamos a tus necesidades</h2></div>
-    </main>
-
-    <section>
-        <div class="espacio-lateral">
-        <div class="flex">
-            <div class="pagina__section"><img src="./imgs/placeholder.png" alt="placeholder"></div>
-            <div class="pagina__section">
-                <h1>Paquete 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae nemo! Ipsam molestiae repudiandae, ducimus nulla ullam quia, dolor illo corporis, qui deserunt doloribus repellat voluptate ratione minima sint maiores.</p>
-            </div>
+    <section class="container py-5 px-2">
+      <!-- ROW 1 -->
+      <div class="row align-items-center justify-content-around" id="basico">
+        <div class="col-lg-4 col-sm-12 col-8 p-2 text-center">
+          <img src="imgs/basico.png" class="img-fluid rounded shadow-sm rounded shadow-sm" alt="placeholder" />
         </div>
-
-        <div>
-        <div class="flex">
-            <div class="pagina__section">
-                <h1>Paquete 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae nemo! Ipsam molestiae repudiandae, ducimus nulla ullam quia, dolor illo corporis, qui deserunt doloribus repellat voluptate ratione minima sint maiores.</p>
-            </div>
-
-            <div class="pagina__section"><img src="./imgs/placeholder.png" alt="placeholder"></div>
+        <div class="pages__content col-lg-7 col-sm-12 p-4 py-sm-5 px-sm-5">
+          <h1>Básico</h1>
+          <h2>Diseñamos un plan de alimentación a tu medida.</h2>
+          <h3>¿Qué incluye?</h3>
+          <ol>
+            <li>
+              Evaluación con analizador de composición corporal por BIA
+              Technology.
+            </li>
+            <li>Menú adaptado a tu gusto y estilo de vida</li>
+            <li>Asesoría continua personalizada</li>
+          </ol>
         </div>
+      </div>
+      <!-- TERMINA ROW 1 -->
+
+      <!-- ROW 2 -->
+      <div class="row align-items-center justify-content-around" id="fitness">
+        <div class="pages__content col-lg-7 col-sm-12 p-4 py-sm-5 px-sm-5">
+          <h1>Fitness</h1>
+          <h2>
+            Alcanza tus objetivos físicos y deportivos. Incrementa tu fuerza,
+            resistencia y potencializa tu energía para desarrollar tu masa
+            muscular.
+          </h2>
+          <h3>¿Qué incluye?</h3>
+          <ol>
+            <li>Todos los beneficios del Paquete Básico</li>
+            <li>Medidas antropométricas</li>
+            <li>Asesoría profesional en suplementación deportiva</li>
+            <li>Biotipo corporal</li>
+          </ol>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-8 p-2 text-center">
+          <img src="imgs/fitness.png" class="img-fluid rounded shadow-sm" alt="placeholder" />
+        </div>
+      </div>
+      <!-- TERMINA ROW 2 -->
+
+      <!-- ROW 3 -->
+      <div class="row align-items-center justify-content-around" id="entrenamiento">
+        <div class="col-lg-4 col-sm-12 col-8 p-2 text-center">
+          <img src="imgs/entrenamiento.png" class="img-fluid rounded shadow-sm" alt="placeholder" />
+        </div>
+        <div class="pages__content col-lg-7 col-sm-12 p-4 py-sm-5 px-sm-5">
+          <h1>Plan de Entrenamiento</h1>
+          <h2>Incrementa tu masa muscular con el diseño de entrenamiento de acuerdo a tu objetivo</h2>
+        </div>
+      </div>
+      <!-- TERMINA ROW 3 -->
+
+      <!-- ROW 4 -->
+      <div class="row align-items-center justify-content-around" id="mantenimiento">
+        <div class="pages__content col-lg-7 col-sm-12 p-4 py-sm-5 px-sm-5">
+          <h1>Plan de mantenimiento</h1>
+          <h2>Mantén los resultados una vez que hayas logrado tu objetivo</h2>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-8 p-2 text-center">
+          <img src="imgs/mantenimiento.png" class="img-fluid rounded shadow-sm" alt="placeholder" />
+        </div>
+      </div>
+      <!-- TERMINA ROW 4 -->
+
+      <!-- ROW 5 -->
+      <div class="row align-items-center justify-content-around" id="dietetica">
+        <div class="col-lg-4 col-sm-12 col-8 p-2 text-center">
+          <img src="imgs/Keto.png" class="img-fluid rounded shadow-sm" alt="placeholder" />
+        </div>
+        <div class="pages__content col-lg-7 col-sm-12 p-4 py-sm-5 px-sm-5">
+          <h1>Dietética de vanguardia</h1>
+          <h2>
+            Régimenes nutricionales específicos sobre nuevas tendencias de
+            alimentación.
+          </h2>
+          <h3>Variedad de dietas</h3>
+          <ol>
+            <li>Ayuno intermitente</li>
+            <li>Keto</li>
+            <li>Atkins</li>
+            <li>Paleo</li>
+            <li>entre otras...</li>
+          </ol>
+        </div>
+      </div>
+      <!-- TERMINA ROW 5 -->
     </section>
-    <!-- Pie de página -->
-    <hr>
-    <footer>
 
-        <div class="footer__flex">
-            <div class="footer__menu">
-             <ul>
-                 <li><a href="index.html">Inicio</a></li> 
-                 <li><a href="acerca.html">Acerca</a></li>
-                 <li><a href="testimonios.html" >Testimonios</a></li>
-                 <li><a href="paquetes.html" >Paquetes</a></li>
-                 <li><a href="contacto.html" >Contacto</a></li>
-             </ul>
-            </div>
-         
-            <div class="footer__menu">
-                <div><a href="index.html"><img src="imgs/LogoNDD-01.png" class="footer__logo" alt="LogoNDD"></a></div>
-            </div>
-            
-            <div class="footer__menu--contacto">
-                <div>
-                    <a href="http://www.facebook.com/nutriciondeportivadietetica/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="http://www.instagram.com/nutriciondeportivaydietetica/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
+<!-- INICIA FOOTER -->
+<footer class="text-center text-lg-start text-white">
+  <div class="container p-4 pb-0">
+    <section class="">
 
-                <div>
-                    <h3>L.N. Diego Mata</h3>
-                    <p>(33)16729188</p>
-                    <p>Av. de la Paz #2681</p>
-                    <p>Guadalajara,Jal.</p>  
-                </div>              
-            </div>
-        
+      <div class="row">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+            <img src="./imgs/LogoNDD-01.png" alt="">
+          </h6>
+          <p>
+            Nutrición Deportiva y Dietética atiende a todas tus necesidades nutricionales sin sacrificios.
+          </p>
         </div>
-   
-    </footer>
-</body>
+
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="footer__head mb-4">Paquetes</h6>
+          <p>
+            <a class="text-white link" href="./paquetes.html#basico">Básico</a>
+          </p>
+          <p>
+            <a class="text-white link" href="./paquetes.html#fitness">Fitness</a>
+          </p>
+          <p>
+            <a class="text-white link" href="./paquetes.html#entrenamiento">Entrenamiento</a>
+          </p>
+          <p>
+            <a class="text-white link" href="./paquetes.html#mantenimiento">Mantenimiento</a>
+          </p>
+          <p>
+            <a class="text-white link" href="./paquetes.html#vanguardia">Vanguardia</a>
+          </p>
+        </div>
+
+
+        <hr class="w-100 clearfix d-md-none" />
+
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="footer__head mb-4">
+            Navegación
+          </h6>
+          <p>
+            <a class="text-white link" href="index.html">Inicio</a>
+          </p>
+          <p>
+            <a class="text-white link" href="acerca.html">Acerca</a>
+          </p>
+          <p>
+            <a class="text-white link" href="paquetes.html">Paquetes</a>
+          </p>
+          <p>
+            <a class="text-white link" href="testimonios.html">Testimonios</a>
+          </p>
+          <p>
+            <a class="text-white link" href="contacto.html">Contacto</a>
+          </p>
+        </div>
+
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="footer__head mb-4">Contacto</h6>
+          <p><i class="fas fa-home mr-3 azul"></i> Av. de la Paz #2681 <br> Col. Arcos Vallarta <br> Guadalajara, Jalisco</p>
+          <p><i class="fas fa-envelope mr-3 azul"></i> hola@ndd.com</p>
+          <p><i class="fas fa-phone mr-3 azul"></i>(33) 1329 8703</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <hr class="my-3">
+
+
+    <section class="p-3 pt-0">
+      <div class="row d-flex align-items-center">
+
+        <div class="col-md-7 col-lg-8 text-center text-md-start">
+
+        </div>
+
+        <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
+            href="https://www.facebook.com/NutricionDeportivaDietetica" target="_blank"><i
+              class="fab fa-facebook-f"></i></a>
+
+
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"
+            href="https://www.instagram.com/nutriciondeportivaydietetica" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+</footer>
+<!-- TERMINA FOOTER -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
